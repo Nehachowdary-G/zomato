@@ -13,8 +13,6 @@ const Header = () => {
       <nav>
         <span>Get the App</span>
         <div className="right">
-          <span>Investor Relations</span>
-          <span>Add restaurant</span>
           <span>Log in</span>
           <span>Sign up</span>
         </div>
@@ -26,8 +24,6 @@ const Header = () => {
         <div className="sideMenu">
           <img src={blackLogo} alt="logo" />
           <div className="innerMenu">
-            <span>Investor Relations</span>
-            <span>Add restaurants</span>
             <span>Log In</span>
             <span>Sign Up</span>
           </div>
@@ -35,7 +31,7 @@ const Header = () => {
       )}
       <div className="headerContent">
         <img src={Logo} alt="logo" />
-        <h3>Discover the best food & drinks in Patna</h3>
+        <h3>Discover the best food & restaurants in Bengaluru</h3>
         <div className="input">
           <select name="" id="">
             <option value="Ap">AP</option>
